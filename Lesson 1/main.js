@@ -16,15 +16,35 @@ console.log(name);
 alert(age);
 alert(name);
 
-const userName = prompt('Як вас звуть?');
+const userName = prompt('Вас звати?');
 console.log(userName);
 const age = prompt('Ваш вік?');
 console.log(age);
 
-console.log(`вас звуть, ${userName} ваш вік, ${age}`);
+console.log(`Мене звуть, ${userName} мені, ${age} років`);
 
 let num1 = prompt('число');
 let num2 = prompt('число');
 
 console.log(num1 + num2);
+
+let num1 = prompt('число');
+let num2 = prompt('число');
+
+console.log(num1 + num2);
+
+let num1 = prompt('число');
+let num2 = prompt('число');
+
+console.log(num1 - num2);
+
+let num1 = prompt('число');
+let num2 = prompt('число');
+
+console.log(num1 * num2);
+
+let num1 = prompt('число');
+let num2 = prompt('число');
+
+console.log(num1 / num2);
 
