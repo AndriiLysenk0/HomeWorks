@@ -23,7 +23,7 @@ alert('27');
 alert(`Мене звати ${name} мені ${age} років`);
 
 
-alert(мене звати 'name' мени 'age' років);
+alert('мене звати '+ name + ' мені ' + age +' років');
 
 const userName = prompt('Вас звати?');
 console.log(userName);
