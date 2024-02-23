@@ -1,22 +1,20 @@
-let num1 = 5;
-let num2 = 2;
+let num1 = +prompt('Число1');
+let num2 = +prompt('Число2');
 
-prompt = (num1 + num2);
-console.log (sum = num1 + num2);
-
-console.log(5 % 2);
-console.log(5**2);
-//rem=1
-//pow=25
-console.log('Залишок від ділення ' + 5 + ' на ' + 2 + ' дорівнює ' + 1);
-console.log('Результат зведеня ' + 5 +' у ступінь ' + 2 + ' дорівнює ' + 25);
+let rem = num1 % num2;
+let pow = num1 ** num2;
+console.log('Залишок від ділення ' + num1 + ' на ' + num2 + ' дорівнює ' + rem);
+console.log('Результат зведення ' + num1 + ' на ' + num2 + ' дорівнює ' pow)
 
 
 let num = 14;
+//num = num + 5;
 num += 5;
 num -= 2;
 num *= 2;
-num += 3;
+++num;
+++num;
+++num;
 console.log(num);
 //num=37
 
@@ -35,11 +33,14 @@ console.log(num2);
 console.log(num3);
 
 
-let age = prompt('Ваш вік?');
+let age = +prompt('Ваш вік?');
 console.log(age>=18);
 
 
 let x =prompt("enter x");
 let y =prompt("enter y");
-console.log(y);
+x = x + y;
+y = x - y;
+x = x - y;
 console.log(x);
+console.log(y);
