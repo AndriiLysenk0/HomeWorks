@@ -50,9 +50,13 @@ if(num1 >=3 && num1 <=5){
     console.log('Літо');
 }else if(num1 >= 9 && num1 <= 11){
     console.log('Осінь');
-}else{
+}else if((num1 > 0 && num1 <= 2) || num1 === 12){
     console.log('Зима');
+}else{
+    console.log('Некоректний номер місяця');
 }
+
+
 
 
 let num1 = +prompt('Ввести будь-яке число')
@@ -74,9 +78,16 @@ if(num1 == 'Cancel'){
 }else if(num1 == 'Other'){
     console.log("I don't know you");
 }else if(num1 == 'Admin'){
-    console.log(num1 = prompt('Password?'));
-}else if(num1 == 'Cancel'){
-    console.log('Canceled');
+    let num2 = prompt('Password');
+    if(num2 == 'Cancel'){
+        console.log('Canceled');
+    }else if(num2 == 'Other'){
+        console.log('Wrong password');
+    }else if(num2 == 'TheMaster'){
+        console.log('Welcome!');
+}}else{
+    console.log('Canceled')
+}
 }if(num1 == 'Other'){
     console.log('Wrong password');
 }else if(num1 == 'TheMaster'){
